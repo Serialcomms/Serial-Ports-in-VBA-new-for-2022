@@ -30,7 +30,7 @@ Standard in-built VBA functions to handle COM port data can suffer from two issu
   
 Port timeout can be set on/off from the command line - believed to be hard-coded to 1 minute. VBA 'not responding' timeout is typically after 5 to 6 seconds.
 
-Debugging can be set on/off per port with results shown in the VBA immediate window. Extensive debug functionality does make several modules quite verbose. 
+Debugging can be set on/off per port with results shown in the VBA immediate window. Extensive debug functionality makes several modules quite verbose, performance impact is however minimal. 
 
 Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up.  Multiple com ports are supported, including physical hardware ports and virtual software ports. 
 
