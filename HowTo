@@ -31,8 +31,8 @@ Testing requires a second device to be connected to this COM Port.
 17. Send some text to your device and check that it is received correctly, e.g. 
 18.  ?transmit_com_port(1,"Hello Device")
 19. Check that 'Hello Device' text is received correctly on your device
-19. On your device, send some text back to VBA - e.g. Hello, Word !
-20. Receive the text from your device
+20. On your device, send some text back to VBA - e.g. Hello, Word !
+21. Receive the text from your device
 21.  ?receive_com_port(1)
 22. Check that Hello, Word ! is displayed correctly in the Immediate Window
 23. Assign some text to variable Y in the Immediate Window
@@ -51,8 +51,8 @@ Testing requires a second device to be connected to this COM Port.
 36.  ?get_com_port(1)
 37. Close the com port
 38.  ?stop_com_port(1)
-39. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
-40. Optional - explore EXAMPLE function at end of listing 
+40. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
+41. Optional - explore EXAMPLE function at end of listing 
 
 Functions can be incorporated into your own VBA programs, and where appropriate can also be used directly in Excel worksheet Cells.
 
