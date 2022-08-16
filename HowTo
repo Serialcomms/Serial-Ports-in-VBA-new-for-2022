@@ -5,7 +5,8 @@ Macros must be enabled and documents should be saved as type Macro-Enabled.
 An 'intermediate' or better level of VBA and serial comms knowledge is assumed. 
 
 Functions were developed on Windows 10 (64-Bit) and Office Professional 2019.
-Usage with other Windows and Office versions is untested, follow testing steps below to check compatibility. 
+Usage with other Windows and Office versions is untested.
+Follow testing steps below to check compatibility. 
 
 Host PC should have a physical or virtual COM Port available for use. 
 COM Port 1 shown - change (1) below to another COM Port if required. 
