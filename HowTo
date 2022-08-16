@@ -33,17 +33,17 @@ Testing requires a second device to be connected to this COM Port.
 18.  ?transmit_com_port(1,"Hello Device")
 19. Check that 'Hello Device' is received correctly on your device
 20. On your device, send some text back to VBA - e.g. Hello, Word !
-21. Receive the text back from your device 
+21. Receive the text back to VBA from your device 
 22.  ?receive_com_port(1)
 23. Check that Hello, Word ! is displayed correctly in the Immediate Window
 24. Assign some text to variable Y in the Immediate Window
 25.  Y = "HELLO DEVICE 123"
-26. Send variable Y to device and check that it is received correctly
+26. Send variable Y to your device and check that it is received correctly
 27.  ?send_com_port(1,Y)
-28. On your device, send some more data back - e.g. QWERTY 
-29. Receive data to variable Z
+28. On your device, send some more text back to VBA - e.g. QWERTY 
+29. Receive text directly to variable Z
 30.  Z = receive_com_port(1)
-31. Display variable Z and check if data received correctly
+31. Display variable Z and check if text received correctly
 32.  ?Z
 33. Optional - explore other functions, e.g.
 34.  ?wait_com_port(1)
