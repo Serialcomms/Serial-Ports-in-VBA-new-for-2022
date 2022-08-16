@@ -36,7 +36,7 @@ Second device can be on a second COM Port on the same host PC.
 21.  Y = "HELLO DEVICE 123"
 22. Send variable to device and check that it is received correctly
 23.  ?send_com_port(1,Y)
-24. On your device, send more data - e.g. QWERTY 
+24. On your device, send more data back - e.g. QWERTY 
 25. Receive data to a variable 
 26.  Z = receive_com_port(1)
 27. Check variable received correctly
