@@ -29,12 +29,12 @@ Second device can be on a second COM Port on the same host PC.
 15. Check that debug information is shown and the last line indicates SUCCESS
 16. Send some text to your device and check that it is received correctly, e.g. 
 17.  ?transmit_com_port(1,"Hello Device")
-18. On your device, send some text back - e.g Hello, Word !
+18. On your device, send some text back - e.g. Hello, Word !
 19. Check that text is received
 20.  ?receive_com_port(1)
 19. Assign some text to a variable in the Immediate Window
 21.  Y = "HELLO DEVICE 123"
-22. Send variable to device and check that it is received
+22. Send variable to device and check that it is received correctly
 23.  ?send_com_port(1,Y)
 24. On your device, send more data - e.g. QWERTY 
 25. Receive data to a variable 
