@@ -10,7 +10,6 @@ Usage with other Windows and Office versions is untested, follow testing steps b
 Host PC should have a physical or virtual COM Port available for use. 
 COM Port 1 shown - change (1) below to another COM Port if required. 
 Testing requires a second device to be connected to this COM Port.
-Second device can be on a second COM Port on the same host PC.
 
 1.  Download SERIAL_PORT_VBA.bas to a known location on your PC
 2.  Open a new Office Application (Excel,Word,Access) document 
