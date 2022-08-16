@@ -28,11 +28,11 @@ Testing requires a second device to be connected to this COM Port.
 15a.  ?start_com_port(1) to use default COM port settings  - or - 
 15b.  ?start_com_port(1,"Baud=9600 Data=8") to specify COM port settings
 16. Check that debug information is shown and the last line indicates SUCCESS
-17. Send some text to your device and check that it is received correctly, e.g. 
+17. Send some text to your device from VBA e.g. 
 18.  ?transmit_com_port(1,"Hello Device")
-19. Check that 'Hello Device' text is received correctly on your device
+19. Check that 'Hello Device' is received correctly on your device
 20. On your device, send some text back to VBA - e.g. Hello, Word !
-21. Receive the text from your device
+21. Receive the text back from your device 
 22.  ?receive_com_port(1)
 23. Check that Hello, Word ! is displayed correctly in the Immediate Window
 24. Assign some text to variable Y in the Immediate Window
