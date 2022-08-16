@@ -1,4 +1,3 @@
-# Serial Ports in VBA new for 2022
 # VBA Serial Port routines for Microsoft Office
 ## New for 2022 - Windows 10, Office 2019 (Excel, Word, Access)
 
