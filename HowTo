@@ -43,7 +43,7 @@ Testing requires a second device to be connected to this COM Port.
 28. On your device, send some more data back - e.g. QWERTY 
 29. Receive data to variable Z
 30.  Z = receive_com_port(1)
-31. Display variable and check if received correctly
+31. Display variable Z and check if data received correctly
 32.  ?Z
 33. Optional - explore other functions, e.g.
 34.  ?wait_com_port(1)
