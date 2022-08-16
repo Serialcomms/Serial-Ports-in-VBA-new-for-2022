@@ -16,7 +16,7 @@ Second device can be on a second COM Port on the same host PC.
 3.  From VBA Environment, view the Project Explorer (Control-R)
 4.  From the Project Explorer, right-hand click and select Import File.
 5.  Import the file SERIAL_PORT_VBA.bas
-6.  Check that a new module SERIAL_PORT_VBA is visible in the Modules folder. 
+6.  Check that a new module SERIAL_PORT_VBA is created and visible in the Modules folder. 
 7.  Close and return to Office application (Alt-Q)
 8.  IMPORTANT - save document as type Macro-Enabled.
 9.  To test, another PC, terminal or similar device should be connected to a COM port on the host PC first. 
