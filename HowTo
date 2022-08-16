@@ -1,5 +1,5 @@
 Before starting, note that these functions are intended to be used on a local Windows PC installation of Microsoft Office only.
-They cannot be used on a Non-Windows PC installation or on hosted Office versions such as Office 365, Outlook etc. 
+They cannot be used on non-Windows machines or on hosted Office versions such as Office 365, Outlook etc. 
 Macros must be enabled and documents should be saved as type Macro-Enabled. 
 
 An 'intermediate' or better level of VBA and serial comms knowledge is assumed. 
