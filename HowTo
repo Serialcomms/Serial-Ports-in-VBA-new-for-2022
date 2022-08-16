@@ -16,7 +16,7 @@ Testing requires a second device to be connected to this COM Port.
 2.  Open a new Office Application (Excel,Word,Access) document 
 3.  Enter the VBA Environment (Alt-F11)
 4.  From VBA Environment, view the Project Explorer (Control-R)
-5.  From the Project Explorer, right-hand click and select Import File.
+5.  From Project Explorer, right-hand click and select Import File.
 6.  Import the file SERIAL_PORT_VBA.bas
 7.  Check that a new module SERIAL_PORT_VBA is created and visible in the Modules folder. 
 8.  Close and return to Office application (Alt-Q)
