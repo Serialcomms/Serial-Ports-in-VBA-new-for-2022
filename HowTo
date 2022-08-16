@@ -48,5 +48,8 @@ Second device can be on a second COM Port on the same host PC.
 33.  ?get_com_port(1)
 34. Close the com port
 35.  ?stop_com_port(1)
+36. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
+37. Optional - explore EXAMPLE function at end of listing 
 
 Functions can be incorporated into your own VBA programs, and where appropriate can also be used directly in Excel worksheet Cells.
+
