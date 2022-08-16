@@ -36,14 +36,14 @@ Second device can be on a second COM Port on the same host PC.
 20. Receive the text from your device
 21.  ?receive_com_port(1)
 22. Check that Hello, Word ! is displayed correctly in the Immediate Window
-23. Assign some text to a variable in the Immediate Window
+23. Assign some text to variable Y in the Immediate Window
 24.  Y = "HELLO DEVICE 123"
 25. Send variable Y to device and check that it is received correctly
 26.  ?send_com_port(1,Y)
 27. On your device, send some more data back - e.g. QWERTY 
-28. Receive data to a variable 
+28. Receive data to variable Z
 29.  Z = receive_com_port(1)
-30. Check variable received correctly
+30. Display variable and check if received correctly
 31.  ?Z
 32. Optional - explore other functions, e.g.
 33.  ?wait_com_port(1)
