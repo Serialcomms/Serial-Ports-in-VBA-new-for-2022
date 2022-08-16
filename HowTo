@@ -19,7 +19,7 @@ Second device can be on a second COM Port on the same host PC.
 6.  Check that a new module SERIAL_PORT_VBA is created and visible in the Modules folder. 
 7.  Close and return to Office application (Alt-Q)
 8.  IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
-9.  To test, another PC, terminal or similar device should be connected to a COM port on the host PC first. 
+9.  To test, another PC, terminal or similar device should be connected to the host PC's COM port.
 10. Re-enter the VBA Environment (Alt-F11)
 11. Select the VBA Immediate Window (Control-G)
 12. Enter the following commands in the Immediate Window :-
@@ -30,11 +30,11 @@ Second device can be on a second COM Port on the same host PC.
 16. Send some text to your device and check that it is received correctly, e.g. 
 17.  ?transmit_com_port(1,"Hello Device")
 18. On your device, send some text back - e.g. Hello, Word !
-19. Check that text is received correctly
+19. Check that 'Hello Device' text is received correctly
 20.  ?receive_com_port(1)
 19. Assign some text to a variable in the Immediate Window
 21.  Y = "HELLO DEVICE 123"
-22. Send variable to device and check that it is received correctly
+22. Send variable Y to device and check that it is received correctly
 23.  ?send_com_port(1,Y)
 24. On your device, send some more data back - e.g. QWERTY 
 25. Receive data to a variable 
