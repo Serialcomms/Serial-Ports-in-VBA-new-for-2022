@@ -33,24 +33,24 @@ Testing requires a second device to be connected to this COM Port.
 19. Check that 'Hello Device' text is received correctly on your device
 20. On your device, send some text back to VBA - e.g. Hello, Word !
 21. Receive the text from your device
-21.  ?receive_com_port(1)
-22. Check that Hello, Word ! is displayed correctly in the Immediate Window
-23. Assign some text to variable Y in the Immediate Window
-24.  Y = "HELLO DEVICE 123"
-25. Send variable Y to device and check that it is received correctly
-26.  ?send_com_port(1,Y)
-27. On your device, send some more data back - e.g. QWERTY 
-28. Receive data to variable Z
-29.  Z = receive_com_port(1)
-30. Display variable and check if received correctly
-31.  ?Z
-32. Optional - explore other functions, e.g.
-33.  ?wait_com_port(1)
-34.  ?check_com_port(1)
-35.  ?put_com_port(1,"A")
-36.  ?get_com_port(1)
-37. Close the com port
-38.  ?stop_com_port(1)
+22.  ?receive_com_port(1)
+23. Check that Hello, Word ! is displayed correctly in the Immediate Window
+24. Assign some text to variable Y in the Immediate Window
+25.  Y = "HELLO DEVICE 123"
+26. Send variable Y to device and check that it is received correctly
+27.  ?send_com_port(1,Y)
+28. On your device, send some more data back - e.g. QWERTY 
+29. Receive data to variable Z
+30.  Z = receive_com_port(1)
+31. Display variable and check if received correctly
+32.  ?Z
+33. Optional - explore other functions, e.g.
+34.  ?wait_com_port(1)
+35.  ?check_com_port(1)
+36.  ?put_com_port(1,"A")
+37.  ?get_com_port(1)
+38. Close the com port
+39.  ?stop_com_port(1)
 40. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
 41. Optional - explore EXAMPLE function at end of listing 
 
