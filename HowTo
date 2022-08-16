@@ -12,44 +12,45 @@ Testing requires a second device to be connected to a local COM Port.
 Second device can be on a second COM Port on the same host PC.
 
 1.  Download SERIAL_PORT_VBA.bas to a known location on your PC
-2.  Open a new Office Application (Excel,Word,Access) document and enter the VBA Environment (Alt-F11)
-3.  From VBA Environment, view the Project Explorer (Control-R)
-4.  From the Project Explorer, right-hand click and select Import File.
-5.  Import the file SERIAL_PORT_VBA.bas
-6.  Check that a new module SERIAL_PORT_VBA is created and visible in the Modules folder. 
-7.  Close and return to Office application (Alt-Q)
-8.  IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
-9.  To test, another PC, terminal or similar device should be connected to the host PC's COM port.
-10. Re-enter the VBA Environment (Alt-F11)
-11. Select the VBA Immediate Window (Control-G)
-12. Enter the following commands in the Immediate Window :-
-13.   ?debug_com_port(1)    
-14a.  ?start_com_port(1) to use default COM port settings  - or - 
-14b.  ?start_com_port(1,"Baud=9600 Data=8") to specify COM port settings
-15. Check that debug information is shown and the last line indicates SUCCESS
-16. Send some text to your device and check that it is received correctly, e.g. 
-17.  ?transmit_com_port(1,"Hello Device")
-18. On your device, send some text back - e.g. Hello, Word !
-19. Check that 'Hello Device' text is received correctly
-20.  ?receive_com_port(1)
-19. Assign some text to a variable in the Immediate Window
-21.  Y = "HELLO DEVICE 123"
-22. Send variable Y to device and check that it is received correctly
-23.  ?send_com_port(1,Y)
-24. On your device, send some more data back - e.g. QWERTY 
-25. Receive data to a variable 
-26.  Z = receive_com_port(1)
-27. Check variable received correctly
-28.  ?Z
-29. Optional - explore other functions, e.g.
-30.  ?wait_com_port(1)
-31.  ?check_com_port(1)
-32.  ?put_com_port(1,"A")
-33.  ?get_com_port(1)
-34. Close the com port
-35.  ?stop_com_port(1)
-36. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
-37. Optional - explore EXAMPLE function at end of listing 
+2.  Open a new Office Application (Excel,Word,Access) document 
+3.  Enter the VBA Environment (Alt-F11)
+4.  From VBA Environment, view the Project Explorer (Control-R)
+5.  From the Project Explorer, right-hand click and select Import File.
+6.  Import the file SERIAL_PORT_VBA.bas
+7.  Check that a new module SERIAL_PORT_VBA is created and visible in the Modules folder. 
+8.  Close and return to Office application (Alt-Q)
+9.  IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
+10. To test, another PC, terminal or similar device should be connected to the host PC's COM port.
+11. Re-enter the VBA Environment (Alt-F11)
+12. Select the VBA Immediate Window (Control-G)
+13. Enter the following commands in the Immediate Window :-
+14.   ?debug_com_port(1)    
+15a.  ?start_com_port(1) to use default COM port settings  - or - 
+15b.  ?start_com_port(1,"Baud=9600 Data=8") to specify COM port settings
+16. Check that debug information is shown and the last line indicates SUCCESS
+17. Send some text to your device and check that it is received correctly, e.g. 
+18.  ?transmit_com_port(1,"Hello Device")
+19. On your device, send some text back - e.g. Hello, Word !
+20. Check that 'Hello Device' text is received correctly
+21.  ?receive_com_port(1)
+22. Assign some text to a variable in the Immediate Window
+23.  Y = "HELLO DEVICE 123"
+24. Send variable Y to device and check that it is received correctly
+25.  ?send_com_port(1,Y)
+26. On your device, send some more data back - e.g. QWERTY 
+27. Receive data to a variable 
+28.  Z = receive_com_port(1)
+29. Check variable received correctly
+30.  ?Z
+31. Optional - explore other functions, e.g.
+32.  ?wait_com_port(1)
+33.  ?check_com_port(1)
+34.  ?put_com_port(1,"A")
+35.  ?get_com_port(1)
+36. Close the com port
+37.  ?stop_com_port(1)
+38. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
+39. Optional - explore EXAMPLE function at end of listing 
 
 Functions can be incorporated into your own VBA programs, and where appropriate can also be used directly in Excel worksheet Cells.
 
