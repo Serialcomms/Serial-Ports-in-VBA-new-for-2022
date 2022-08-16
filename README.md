@@ -27,7 +27,7 @@ Standard in-built VBA functions to handle COM port data can suffer from two issu
   
    `Get #1, , Read_Data_Byte`  
   
-Port timeout can be set on/off from the command line - believed to be hard-coded to 1 minute. VBA 'not responding' timeout is typically after 5 to 6 seconds.
+The new functions address both of these issues, and also where data transfers take longer than the 5-6 second VBA timeout.
 
 Debugging can be set on/off per port with results shown in the VBA immediate window. Extensive debug functionality makes several modules quite verbose, performance impact is however minimal. 
 
