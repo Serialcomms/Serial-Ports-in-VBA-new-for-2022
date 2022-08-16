@@ -7,7 +7,8 @@ An 'intermediate' or better level of VBA and serial comms knowledge is assumed.
 Functions were developed on Windows 10 (64-Bit) and Office Professional 2019 installation.
 Usage with other Windows and Office versions is untested, follow testing steps below to check compatibility. 
 
-Host PC should have a physical or virtual COM Port available for use. Change (1) below to another port if required. 
+Host PC should have a physical or virtual COM Port available for use. 
+COM Port 1 shown - change (1) below to another COM Port if required. 
 Testing requires a second device to be connected to a local COM Port.
 Second device can be on a second COM Port on the same host PC.
 
