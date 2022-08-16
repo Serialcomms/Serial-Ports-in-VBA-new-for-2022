@@ -1,4 +1,5 @@
-# Serial-Ports-in-VBA-new-for-2022# VBA Serial Port routines for Microsoft Office
+# Serial Ports in VBA new for2022
+# VBA Serial Port routines for Microsoft Office
 ## New for 2022 - Windows 10, Office 2019 (Excel, Word, Access)
 
 Getting Serial (COM) Ports working as intended in VBA can be surprisingly difficult in certain usage scenarios. 
