@@ -1,0 +1,60 @@
+Before starting, note that these functions are intended for use on Windows PC only. 
+Required Microsoft Office applications (Excel, Word) should be installed on the PC. 
+Functions will not work with Online Office versions such as Office 365, Outlook etc. 
+
+Macros must be enabled and documents should be saved as type Macro-Enabled. 
+
+An 'intermediate' or better level of VBA and serial comms knowledge is assumed. 
+
+Functions were developed on Windows 10 (64-Bit) and Office Professional 2019.
+Usage with other Windows and Office versions is untested.
+Follow testing steps below to check compatibility. 
+
+Host PC should have a physical or virtual COM Port available for use. 
+COM Port 1 shown - change (1) below to another COM Port if required. 
+Testing requires a second device to be connected to this COM Port.
+
+1.  Download SERIAL_PORT_VBA.bas to a known location on your PC
+2.  Open a new Office Application (Excel,Word,Access) document 
+3.  Enter the VBA Environment (Alt-F11)
+4.  From VBA Environment, view the Project Explorer (Control-R)
+5.  From Project Explorer, right-hand click and select Import File.
+6.  Import the file SERIAL_PORT_VBA.bas
+7.  Check that a new module SERIAL_PORT_VBA is created and visible in the Modules folder. 
+8.  Close and return to Office application (Alt-Q)
+9.  IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
+10. To test, another PC, terminal or similar device should be connected to the host PC's COM port.
+11. Re-enter the VBA Environment (Alt-F11)
+12. Select the VBA Immediate Window (Control-G)
+13. Enter the following commands in the Immediate Window :-
+14.   ?debug_com_port(1)    
+15a.  ?start_com_port(1) to use default COM port settings  - or - 
+15b.  ?start_com_port(1,"Baud=9600 Data=8") to specify COM port settings
+16. Check that debug information is shown and the last line indicates SUCCESS
+17. Send some text to your device from VBA e.g. 
+18.  ?transmit_com_port(1,"Hello Device")
+19. Check that 'Hello Device' is received correctly on your device
+20. On your device, send some text back to VBA - e.g. Hello, Word !
+21. Receive the text from your device back to VBA
+22.  ?receive_com_port(1)
+23. Check that Hello, Word ! is displayed correctly in the Immediate Window
+24. Assign some text to variable Y in the Immediate Window
+25.  Y = "HELLO DEVICE 123"
+26. Send variable Y to your device and check that it is received correctly
+27.  ?send_com_port(1,Y)
+28. On your device, send some more text back to VBA - e.g. QWERTY 
+29. Receive device text into variable Z
+30.  Z = receive_com_port(1)
+31. Display variable Z and check if text received correctly
+32.  ?Z
+33. Optional - explore other functions, e.g.
+34.  ?wait_com_port(1)
+35.  ?check_com_port(1)
+36.  ?put_com_port(1,"A")
+37.  ?get_com_port(1)
+38. Close the com port
+39.  ?stop_com_port(1)
+40. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
+41. Optional - explore EXAMPLE function at end of VBA Module.
+
+Functions can be incorporated into your own VBA programs, and where appropriate can also be used directly in Excel worksheet Cells.
