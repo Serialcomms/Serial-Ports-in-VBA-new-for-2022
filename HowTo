@@ -53,7 +53,7 @@ Testing requires a second device to be connected to this COM Port.
 38. Close the com port
 39.  ?stop_com_port(1)
 40. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
-41. Optional - explore EXAMPLE function at end of listing 
+41. Optional - explore EXAMPLE function at end of VBA Module.
 
 Functions can be incorporated into your own VBA programs, and where appropriate can also be used directly in Excel worksheet Cells.
 
