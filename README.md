@@ -60,5 +60,5 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `get_com_port(1)`                       | Receives a single character string from a started com port.                                              |
 | `stop_com_port(1)`                      | Stops port and hands control of it back to Windows.                                                      |
 
-Other Public functions such as `show_port_errors(1)` etc. can only be used in the Immediate window for further information if required.
+Other Public functions such as `show_port_errors(1)` etc. should only be used in the Immediate window for further information if required.
 Private functions are not intended to be called directly by users.
