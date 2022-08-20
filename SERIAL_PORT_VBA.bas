@@ -1711,7 +1711,6 @@ SHOW_PORT_QUEUES = Temp_Bool
 End Function
 
 Public Function CHECK_COM_PORT(Port_Number As Long) As Long
-Attribute CHECK_COM_PORT.VB_Description = "Count of characters waiting to be read"
 '-------------------------------------------------------------------------
 Dim Port_Debug As Boolean: Const Module_Name As String = "CHECK_COM_PORT"
 Dim Port_Valid As Boolean: Port_Valid = Port_Number_Valid(Port_Number)
