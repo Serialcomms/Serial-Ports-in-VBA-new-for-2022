@@ -58,7 +58,7 @@ Testing requires a second device to be connected to this COM Port.
 41. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
 42. Optional - explore EXAMPLE function at end of VBA Module.
 
-Functions can be incorporated into your own VBA programs.
-Where appropriate, functions can also be used directly in Excel worksheet Cells.
+Public functions can be incorporated into your own VBA programs.
+Where appropriate, Public functions can also be used directly in Excel worksheet Cells.
 
 
