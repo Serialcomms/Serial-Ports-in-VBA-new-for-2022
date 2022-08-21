@@ -58,7 +58,7 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `receive_com_port(1)`                   | Receives data from port, again timesliced for low port speeds and/or large data transfers.               |
 | `put_com_port(1,"A")`                   | Sends a single character to a started com port. Returns True if successful, False if fail.               |
 | `get_com_port(1)`                       | Receives a single character string from a started com port.                                              |
-| 'device_ready(1)`                       | Returns True if port started and DSR Signal (input) active.                                              |
+| `device_ready(1)`                       | Returns True if port started and DSR Signal (input) active.                                              |
 | `clear_to_send(1)`                      | Returns True if port started and CTS Signal (input) active.                                              |
 | `stop_com_port(1)`                      | Stops port and hands control of it back to Windows.                                                      |
 
