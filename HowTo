@@ -47,15 +47,16 @@ Testing requires a second device to be connected to this COM Port.
 30.  Z = receive_com_port(1)
 31. Display variable Z and check if text received correctly
 32.  ?Z
-33. Optional - explore other functions, e.g.
+33. Optional - explore other Public functions, e.g.
 34.  ?wait_com_port(1)
 35.  ?check_com_port(1)
 36.  ?put_com_port(1,"A")
 37.  ?get_com_port(1)
-38. Close the com port
-39.  ?stop_com_port(1)
-40. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
-41. Optional - explore EXAMPLE function at end of VBA Module.
+38.  ?device_ready(1)
+39. Close the com port
+40.  ?stop_com_port(1)
+41. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
+42. Optional - explore EXAMPLE function at end of VBA Module.
 
 Functions can be incorporated into your own VBA programs.
 Where appropriate, functions can also be used directly in Excel worksheet Cells.
