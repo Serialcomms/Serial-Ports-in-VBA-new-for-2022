@@ -50,7 +50,7 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `debug_com_port(1,False)`               | Set port debug messaging off                                                                             |  
 | `start_com_port(1)`                     | Starts port with existing settings. Returns True if successful, False if start fails for any reason.     | 
 | `start_com_port(1,"Baud=1200")`         | Starts port with settings as supplied. Returns True or False as above.                                   |
-| `check_com_port(1)`                     | Returns number of input characters waiting to be read (no delay). Return value of -1 indicates error.    |
+| `check_com_port(1)`                     | Returns number of input characters waiting to be read (no delay). Return value -1 indicates error.       |
 | `wait_com_port(1)`                      | Wait for up to 333mS (default) before timing out. Returns True if receive data waiting, otherwise False. |
 | `wait_com_port(1,500)`                  | As above, can optionally specify wait time (500) in milliseconds. Timesliced to avoid VBA hanging.       |  
 | `get_com_port(1)`                       | Receives a single character string from a started com port.                                              |
