@@ -55,7 +55,7 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `wait_com_port(1)`                      | Wait for up to 333mS (default) before timing out. Returns True if receive data waiting, otherwise False. |
 | `wait_com_port(1,500)`                  | As above, can optionally specify wait time (500) in milliseconds. Timesliced to avoid VBA hanging.       |  
 | `check_com_port(1)`                     | Returns number of input characters waiting to be read (no delay). Return value of -1 indicates error.    |
-| `receive_com_port(1)`                   | Receives data from port, again timesliced for low port speeds and/or large data transfers.               |
+| `receive_com_port(1)`                   | Receives all data from port, again timesliced for low port speeds and/or large data transfers.               |
 | `put_com_port(1,"A")`                   | Sends a single character to a started com port. Returns True if successful, False if fail.               |
 | `get_com_port(1)`                       | Receives a single character string from a started com port.                                              |
 | `device_ready(1)`                       | Returns True if port started and DSR Signal (input) active.                                              |
