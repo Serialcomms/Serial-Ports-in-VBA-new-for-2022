@@ -11,7 +11,7 @@ Functions work in Excel, Word and Access (Windows versions only) with Macros ena
 
 No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.  
 
-Developed and tested on Windows 10 (64-Bit) with a local Microsoft Office 2019 Professional installation.   
+Developed and tested on Windows 10 (64-Bit) with a local Microsoft Office 2019 Professional (32-Bit) installation.   
 
 Functions are straightforward to use and intended to help implement ad-hoc projects for serial data acquisition or transfer.
 Coding style supports infrequent VBA users or developers.
