@@ -57,7 +57,7 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `get_com_port(1)`                    | Receives a single character string from a started com port.                                                   |
 | `put_com_port(1,"A")`                | Sends a single character to a started com port. Returns `True` if successful, `False` if fail.                |
 | `read_com_port(1,20)`                | Reads up to specified number (20) of characters. No delay, max characters = approx 1 second timeslice.        |
-| `send_com_port(1,V)`                 | Sends variable V. Function converts V to String and calls transmit_com_port.                                  |
+| `send_com_port(1,V)`                 | Sends variable V. Function converts V to String and calls `transmit_com_port`.                                |
 | `receive_com_port(1)`                | Receives all data from port, timesliced for low port speeds and/or large data transfers.                      |
 | `transmit_com_port(1,"QWERTY")`      | Sends string to port, in timeslices of approx 1 second to avoid VBA 'not responding'                          |
 | `device_ready(1)`                    | Returns `True` if port started and DSR Signal (input) active.                                                 |
