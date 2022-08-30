@@ -16,7 +16,7 @@ Developed on Windows 10 (64-Bit) with a local Microsoft Office 2019 Professional
 Tested on Office 2016 Professional (64-bit) and Office 2019 Professional (32-Bit).
 
 Functions are straightforward to use and intended to help implement ad-hoc projects for serial data acquisition or transfer.
-Coding style supports infrequent VBA users or developers.
+Coding style supports infrequent VBA users and developers.
 
 Standard in-built VBA functions to handle COM port data can suffer from two issues :-
 
