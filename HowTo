@@ -56,8 +56,9 @@ Testing requires a second device to be connected to this COM Port.
 38.  ?device_ready(1)
 39. Close the com port
 40.  ?stop_com_port(1)
-41. Optional - repeat above steps without debug messaging - ?debug_com_port(1) again to toggle debug off. 
-42. Optional - explore EXAMPLE function at end of VBA Module.
+41. Optional - repeat above steps without debug messaging 
+42.  ?debug_com_port(1) again to toggle debug off. 
+43. Optional - explore EXAMPLE function at end of VBA Module.
 
 Public functions can be incorporated into your own VBA programs.
 Where appropriate, Public functions can also be used directly in Excel worksheet Cells.
