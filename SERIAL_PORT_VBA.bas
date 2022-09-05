@@ -86,7 +86,7 @@ Private Const HEX_C000 As Long = &HC000
 
 Private Const TEXT_ON As String = "On"              ' some text string constants for minor gains.
 Private Const TEXT_MS As String = " mS"
-Private Const TEXT_US As String = " µS"
+Private Const TEXT_US As String = " ÂµS"
 Private Const TEXT_TO As String = " To "
 Private Const TEXT_OFF As String = "Off"
 Private Const TEXT_TRUE As String = "True"
@@ -410,7 +410,7 @@ Const Start_Text_2 As String = " Opened and Configured COM Port "
 Const Start_Text_3 As String = " with Handle "
 Const Start_Text_4 As String = " Failed to Configure COM Port "
 Const Start_Text_5 As String = " Failed to Open and Configure COM Port "
-Const Start_Text_6 As String = " Failed to Start COM Port, Existing Port Handle = "
+Const Start_Text_6 As String = " Failed to Open COM Port, Existing Port Handle = "
 Const Start_Text_7 As String = " Port Number Invalid, Defined Port Number Range = "
 
 Result_Text = TEXT_FAILURE
