@@ -473,6 +473,7 @@ End Function
 Public Function RECEIVE_COM_PORT(Port_Number As Long) As String
 
 Dim Temp_Result As Boolean, Full_Read As Long
+                            
 If Port_Ready(Port_Number) Then
 
     With COM_PORT(Port_Number)
