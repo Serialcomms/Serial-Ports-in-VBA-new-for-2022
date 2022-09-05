@@ -1,5 +1,5 @@
 # Non-Debug Version
-This is the 'lightweight' verion of SERIAL_PORTS_VBA with all debug and show functionality removed.
+This is the 'lightweight' version of SERIAL_PORTS_VBA with all debug and show functionality removed.
 
 All Main VBA port functions remain functionally equivalent. 
 
