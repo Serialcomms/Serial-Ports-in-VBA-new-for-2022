@@ -783,8 +783,6 @@ SET_PORT_TIMERS = Temp_Result
 End Function
 
 Public Function CHECK_COM_PORT(Port_Number As Long) As Long
-Attribute CHECK_COM_PORT.VB_Description = "Count of characters waiting to be read"
-
 ' Application.Volatile  ' - remove comment mark to allow function to recalculate in Excel Worksheet cell.
 ' https://docs.microsoft.com/en-us/office/vba/api/Excel.Application.Volatile
 
