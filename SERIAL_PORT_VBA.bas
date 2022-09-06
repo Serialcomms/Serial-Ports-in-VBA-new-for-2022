@@ -5,19 +5,22 @@ Attribute VB_Name = "SERIAL_PORT_VBA"
   Option Explicit
 
 ' Option Private Module
-'
-' Change Com Port min/max values below to match your installed hardware and intended usage
+
+'---------------------------------------------------------------------------
+' Change min/max values below to match your com ports and intended usage.
+' Both hardware and software (virtual) port types are supported, 
+' including ports with numbers greater than 10. 
 
 Private Const COM_PORT_MIN As Integer = 1               ' = COM1
 Private Const COM_PORT_MAX As Integer = 2               ' = COM2
 
-'------------------------------------------------------------------------------------------
+'---------------------------------------------------------------------------
 ' Optional - can define port settings for your devices here.
 ' Use constant to start com port instead of settings string.
 '
 ' Public Const BARCODE As String = "Baud=9600 Data=8 Parity=N Stop=1"
 ' Public Const GPS_SET As String = "Baud=1200 Data=7 Parity=E Stop=1"
-'------------------------------------------------------------------------------------------
+'----------------------------------------------------------------------------
 
 Private Const HANDLE_INVALID As LongPtr = -1
 Private Const MAXDWORD As Long = &HFFFFFFFF
