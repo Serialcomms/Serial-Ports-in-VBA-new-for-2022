@@ -35,9 +35,13 @@ Debugging can be set on/off per port with results shown in the VBA immediate win
 
 Extensive debug functionality makes several modules quite verbose, a more compact version without debug is available in the No-Debug folder. 
 
-Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up.  Multiple com ports are supported, including physical hardware ports and virtual software ports. 
+Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up. 
 
-All read and write functions are synchronous, in part because not all serial ports support overlapped operation. Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains responsive during any extended data transfers or waiting times. 
+Multiple com ports are supported, including physical hardware ports and virtual software ports. 
+
+All read and write functions are synchronous, in part because not all serial ports support overlapped operation.
+
+Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains responsive during any extended data transfers or waiting times. 
 
 Optional steps for Excel only - 
 
