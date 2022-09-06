@@ -31,9 +31,9 @@ Standard in-built VBA functions to handle COM port data can suffer from two issu
   
 The new functions address both of these issues, and also where data transfers take longer than the 5-6 second VBA timeout.
 
-Debugging can be set on/off per port with results shown in the VBA immediate window. Extensive debug functionality makes several modules quite verbose, performance impact is however minimal. 
+Debugging can be set on/off per port with results shown in the VBA immediate window. 
 
-A more compact version without debug capability is available in the No-Debug folder. 
+Extensive debug functionality makes several modules quite verbose, a more compact version without debug is available in the No-Debug folder. 
 
 Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up.  Multiple com ports are supported, including physical hardware ports and virtual software ports. 
 
