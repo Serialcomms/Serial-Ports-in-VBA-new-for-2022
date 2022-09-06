@@ -86,7 +86,7 @@ Private Const HEX_C000 As Long = &HC000
 
 Private Const TEXT_ON As String = "On"              ' some text string constants for minor gains.
 Private Const TEXT_MS As String = " mS"
-Private Const TEXT_US As String = " µS"
+Private Const TEXT_US As String = " ÂµS"
 Private Const TEXT_TO As String = " To "
 Private Const TEXT_OFF As String = "Off"
 Private Const TEXT_TRUE As String = "True"
@@ -1843,7 +1843,6 @@ SHOW_PORT_QUEUES = Temp_Result
 End Function
 
 Public Function CHECK_COM_PORT(Port_Number As Long) As Long
-Attribute CHECK_COM_PORT.VB_Description = "Count of characters waiting to be read"
 '-------------------------------------------------------------------------
 Dim Port_Debug As Boolean: Const Module_Name As String = "CHECK_COM_PORT"
 Dim Port_Valid As Boolean: Port_Valid = Port_Number_Valid(Port_Number)
