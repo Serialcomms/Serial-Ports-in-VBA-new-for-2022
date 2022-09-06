@@ -13,6 +13,7 @@ Follow testing steps below to check compatibility.
 
 Host PC should have a physical or virtual COM Port available for use. 
 COM Port 1 shown - change (1) below to another COM Port if required. 
+Check/Edit COM_PORT_MIN and COM_PORT_MAX values in SERIAL_PORT_VBA.
 Testing requires a second device to be connected to this COM Port.
 
 1.  Download SERIAL_PORT_VBA.bas to a known location on your PC
