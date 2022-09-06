@@ -6,10 +6,11 @@ Attribute VB_Name = "SERIAL_PORT_VBA"
 
 ' Option Private Module
 
-'---------------------------------------------------------------------------
+'------------------------------------------------------------------------------
 ' Change min/max values below to match your com ports and intended usage.
-' Both hardware and software (virtual) port types are supported, 
-' including ports with numbers greater than 10. 
+' Data functions should work with most hardware and software port types.
+' Signalling functions should be tested individually if required.
+' Functions work with port numbers greater than 10 if specified.
 
 Private Const COM_PORT_MIN As Integer = 1               ' = COM1
 Private Const COM_PORT_MAX As Integer = 2               ' = COM2
