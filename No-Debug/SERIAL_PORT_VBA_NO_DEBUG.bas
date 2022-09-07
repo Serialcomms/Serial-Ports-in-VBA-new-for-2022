@@ -915,7 +915,8 @@ End Function
 Public Function SIGNAL_COM_PORT(Port_Number As Long, Signal_Function As Long) As Boolean
 
 ' https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction
-
+' set/clear BREAK, DTR, RTS port signals from list above.
+                                        
 Dim Signal_Valid As Boolean
 Dim Signal_Result As Boolean
 
