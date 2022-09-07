@@ -527,7 +527,7 @@ Dim Write_Result As Boolean
 
 If Port_Ready(Port_Number) Then
 
-With COM_PORT(Port_Number)
+  With COM_PORT(Port_Number)
 
     For Loop_Counter = LONG_1 To Len(Transmit_Text) Step .Timers.Timeslice_Bytes
     
@@ -539,7 +539,7 @@ With COM_PORT(Port_Number)
 
     Next Loop_Counter
     
-    End With
+  End With
 
 End If
 
