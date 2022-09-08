@@ -72,7 +72,7 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `clear_to_send(1)`                   | Returns `True` if port started and Clear To Send (CTS) input signal active.                                   |
 | `carrier_detect(1)`                  | Returns `True` if port started and Carrier Detect (RLSD/CD) input signal active.                              |
 | `request_to_send(1,[1/0])`           | Sets Request To Send (RTS) output signal on/off `1/0`                                                         |
-| `signal_com_port(1,signal)`          | Sets/clears Break, DTS, RTS outputs signals (see URL in function comments for signal values)                  |     
+| `signal_com_port(1,signal)`          | Sets/clears Break, DTS, RTS outputs signals _(see URL in function comments for signal values)_                |     
 | `stop_com_port(1)`                   | Stops port and hands its control back to Windows.                                                             |
 
 Other Public functions such as `show_port_errors(1)` etc. should only be used in the Immediate window for further information if required.
