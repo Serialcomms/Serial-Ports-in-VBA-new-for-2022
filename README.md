@@ -43,11 +43,15 @@ All read and write functions are synchronous, in part because not all serial por
 
 Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains responsive during any extended data transfers or waiting times. 
 
-Optional steps for Excel only - 
+<details><summary>Optional steps for Excel only</summary>
+<p>
 
 - Remove comment mark before `Option Private Module` to prevent function names appearing in cell formula drop-down lists. 
 - Remove comment mark before `Application.Volatile` where indicated to refresh results when functions are used in cells and the worksheet is recalculated (e.g. with F9 key).
 
+ </p>
+ </details>
+   
 Main user-defined functions are as follows. First parameter is a valid COM Port number on host. COM 1 is used here for example. Min/Max com port numbers are defined in the declarations section at the start of the module.
 
 | VBA Function                         | Description                                                                                                   |
