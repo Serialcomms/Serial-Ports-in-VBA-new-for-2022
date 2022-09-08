@@ -72,7 +72,7 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `clear_to_send(1)`                   | Returns `True` if port started and Clear To Send (CTS) input signal active.                                   |
 | `carrier_detect(1)`                  | Returns `True` if port started and Carrier Detect (RLSD/CD) input signal active.                              |
 | `request_to_send(1,[1/0])`           | Sets Request To Send (RTS) output signal on/off `1/0` Returns `True` if port started and RTS set/cleared      |
-| `signal_com_port(1,signal)`          | Set/clear Break, DTR, RTS outputs signals, see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
+| `signal_com_port(1,signal)`          | Set/clear Break, DTR, RTS output signals, see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
 | `stop_com_port(1)`                   | Stops port and hands its control back to Windows.                                                             |
 
 Other Public functions such as `show_port_errors(1)` etc. should only be used in the Immediate window for further information if required.
