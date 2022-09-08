@@ -67,8 +67,8 @@ Main user-defined functions are as follows. First parameter is a valid COM Port 
 | `send_com_port(1,V)`                 | Sends variable V. Function converts V to String and calls `transmit_com_port`.                                |
 | `receive_com_port(1)`                | Receives all data from port, timesliced for low port speeds and/or large data transfers.                      |
 | `transmit_com_port(1,"QWERTY")`      | Sends string to port, in timeslices of approx 1 second to avoid VBA 'not responding'                          |
-| `device_calling(1)`                  | Returns `True` if port started and Ring Indicate (RI) input signal active.                                    |
 | `device_ready(1)`                    | Returns `True` if port started and Data Set Ready (DSR) input signal active.                                  |
+| `device_calling(1)`                  | Returns `True` if port started and Ring Indicate (RI) input signal active.                                    |
 | `clear_to_send(1)`                   | Returns `True` if port started and Clear To Send (CTS) input signal active.                                   |
 | `carrier_detect(1)`                  | Returns `True` if port started and Carrier Detect (RLSD/CD) input signal active.                              |
 | `request_to_send(1,[1/0])`           | Sets Request To Send (RTS) output signal on/off `1/0`                                                         |
