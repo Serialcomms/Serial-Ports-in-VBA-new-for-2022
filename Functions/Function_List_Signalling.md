@@ -33,7 +33,7 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | `signal_com_port(1,8)`        | BREAK  |  Send  | Line Break Condition                 |    3    |    3     |
 | `signal_com_port(1,9)`        | BREAK  |  Clear | Line Break Condition                 |    3    |    3     |
 
- * Functions return True if port valid, started and Windows EscapeCommFunction[^2] returned True 
+ * Functions return True if port valid, started and Windows [EscapeCommFunction](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction) returned True 
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module.
 [^2]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
