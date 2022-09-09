@@ -88,6 +88,8 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 [Port Signalling Functions](Functions/Function_List_Signalling.md)
 
 [Show Functions](Functions/Function_List_Show.md)
+
+Private functions are not intended to be called directly by users.
   
 </p>
 </details>   
