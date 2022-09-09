@@ -14,7 +14,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
 | `show_port_timers(1)`                | Show read and write timer values                                                                              |
 | `show_port_values(1)`                | Show various values used by receive_com_port etc.                                                             |
 
-* Functions not included in No-Debug version.
+* Show functions not included in No-Debug version.
 * Show results are in the VBA Immediate Window (Control-G)
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
