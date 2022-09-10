@@ -10,8 +10,8 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 | `wait_com_port(1,500)`          | Yes  | As above, specify maximum wait time (500) in milliseconds.                                                    |
 | `get_com_port(1)`               | No   | Receives a single-character string.                                                                           |
 | `put_com_port(1,"A")`           | No   | Sends a single-character string.                                                                              |
-| `read_com_port(1)`              | No   | Reads an unspecified number [^2] of waiting characters.                                                       |
-| `read_com_port(1,20)`           | No   | Reads up to specified number [^2] (20) of waiting characters.                                                 |
+| `read_com_port(1)`              | No   | Reads an unspecified number [^2] of waiting characters. Returns immediately.                                  |
+| `read_com_port(1,20)`           | No   | Reads up to specified number [^2] (20) of waiting characters. Returns immediately.                            |
 | `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`.                                |
 | `receive_com_port(1)`           | Yes  | Receives all data from port[^3]                                                                               |
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string QWERTY to port                                                                          |
