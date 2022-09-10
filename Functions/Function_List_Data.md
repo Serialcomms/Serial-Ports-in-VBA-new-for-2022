@@ -12,10 +12,10 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 | `put_com_port(1,"A")`           | No   | Sends a single-character string.                                                                              |
 | `read_com_port(1)`              | No   | Reads an unspecified number [^2] of waiting characters. Returns immediately.                                  |
 | `read_com_port(1,20)`           | No   | Reads up to specified number [^2] (20) of waiting characters. Returns immediately.                            |
-| `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`.                                |
-| `receive_com_port(1)`           | Yes  | Receives all data from port[^3]                                                                               |
-| `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string QWERTY to port                                                                          |
-| `transmit_com_port(1,COMMANDS)` | Yes  | Sends supplied string constant or variable COMMANDS to port                                                   |
+| `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`. [^4]                            |
+| `receive_com_port(1)`           | Yes  | Receives all data from port[^3][^4]                                                                           |
+| `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string QWERTY to port[^4]                                                                     |
+| `transmit_com_port(1,COMMANDS)` | Yes  | Sends supplied string constant or variable COMMANDS to port[^4]                                              |
 
 * Functions shown as TS=No return within a few milliseconds. 
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
@@ -25,5 +25,6 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 [^2]:  Maximum number of characters read is approximately = (baud rate / 10)  
        
 [^3]:  Function includes read wait and exit timers and returns when exit timer expires.  
-       Function can block for extended periods with VBA remaining responsive before returning.  
+
+[^4]:  Function can block for extended periods with VBA remaining responsive before returning.  
        
