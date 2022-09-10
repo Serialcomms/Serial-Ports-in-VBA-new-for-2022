@@ -47,19 +47,6 @@ Tested on Office 2016 Professional (64-bit VBA7) and Office 2019 Professional (3
 </p>
 </details>
 
-<details><summary>Debugging</summary>
-<p>
-
-* Debugging can be set on/off per port with results shown in the VBA immediate window. 
-
-* Extensive debug functionality makes several modules quite verbose. 
-
-* A far more compact version without debug is available in the No-Debug folder. 
-
-</p>
-</details>   
-
-
 <details><summary>COM Ports</summary>
 <p>
 
@@ -73,6 +60,18 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 
 </p>
 </details>
+
+<details><summary>Debugging</summary>
+<p>
+
+* Debugging can be set on/off per port with results shown in the VBA immediate window. 
+
+* Extensive debug functionality makes several modules quite verbose. 
+
+* A far more compact version without debug is available in the No-Debug folder. 
+
+</p>
+</details>   
 
 <details><summary>Optional steps for Excel only</summary>
 <p>
