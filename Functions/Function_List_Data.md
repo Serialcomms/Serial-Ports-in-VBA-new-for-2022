@@ -24,6 +24,6 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 
 [^2]:  Maximum number of characters read is approximately = (baud rate / 10)  
        
-[^3]:  Function includes read wait and exit timers.   
+[^3]:  Function includes read wait and exit timers and returns when exit timer expires.  
        Function can block for extended periods with VBA remaining responsive before returning.  
-       Function returns when exit timer expires after last data is read.  
+       
