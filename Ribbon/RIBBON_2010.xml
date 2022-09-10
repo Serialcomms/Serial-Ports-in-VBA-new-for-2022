@@ -1,0 +1,31 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon>
+		<tabs>
+			<tab id="COM_PORT_TAB" label="COM Port" insertAfterMso="TabHome">	
+			    		
+				<group id="COM_PORT_CONTROLS"    label="Com Port Control">
+				    
+					<button id="COM_PORT_START"  label="Start" size="large" onAction="COM_PORT_CONTROL_1" imageMso="RecordingPlay" />
+					<button id="COM_PORT_STOP"   label="Stop"  size="large" onAction="COM_PORT_CONTROL_2" imageMso="MenuDeclineInvitation" />
+				
+				</group>
+				    
+				<group id="COM_PORT_DATA" label="Com Port Data">
+                    
+					<button id="COM_PORT_CHECK"  label="Check" size="large" onAction="COM_PORT_DATA_1"    imageMso="NewTaskNumbered" />
+					<button id="COM_PORT_READ"   label="Read"  size="large" onAction="COM_PORT_DATA_2"    imageMso="BarcodeInsert" />
+					<button id="COM_PORT_WRITE"  label="Write" size="large" onAction="COM_PORT_DATA_3"    imageMso="PageOptionsDialog" />
+					
+				</group>
+				    
+				<group id="COM_PORT_SIGNAL" label="Com Port Signal">
+                  
+					<button id="COM_PORT_RTS_ON"  label="ON"  size="large" onAction="COM_PORT_SIGNAL_1"   imageMso="ArrangeByToDoStart" />
+					<button id="COM_PORT_RTS_OFF" label="OFF" size="large" onAction="COM_PORT_SIGNAL_2"   imageMso="HtmlClearBookmarks" />
+
+				</group>
+				 				
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
