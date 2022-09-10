@@ -62,12 +62,12 @@ Multiple com ports are supported, including physical hardware ports and syntheti
 
 All read and write functions are synchronous, in part because not all serial port types support overlapped operation.
 
-</p>
-</details>   
- 
 Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up. 
 
 Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains responsive during any extended data transfers or waiting times. 
+
+</p>
+</details>
 
 <details><summary>Optional steps for Excel only</summary>
 <p>
