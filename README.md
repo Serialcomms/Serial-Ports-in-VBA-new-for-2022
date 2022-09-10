@@ -32,6 +32,8 @@ The in-built VBA functions for COM Port data can suffer from the following issue
    
 </p>
 </details>   
+
+<details><summary>Background</summary>  
    
 The legacy of serial comms means that many online solution searches are now time-expired with links to defunct web sites etc.    
 
@@ -41,6 +43,8 @@ Developed on Windows 10 (64-Bit) with a local Microsoft Office 2019 Professional
 
 Tested on Office 2016 Professional (64-bit VBA7) and Office 2019 Professional (32-Bit VBA7)    
 
+</p>
+</details>
 
 <details><summary>Debugging</summary>
 <p>
