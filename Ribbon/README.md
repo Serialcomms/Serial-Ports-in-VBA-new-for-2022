@@ -13,7 +13,7 @@ Download the file RIBBON_2007.xml from this folder in preparation for use.
 
 Prepare a document by installing and testing module SERIAL_PORT_VBA first. 
 
-Follow the [HowTo](How-To.md) instructions to install the RIBBON_2007.xml sample customisation file.
+Follow the [HowTo](How-To.md) instructions to install the RIBBON_2010.xml sample customisation file.
 
 </p>
 </details>
