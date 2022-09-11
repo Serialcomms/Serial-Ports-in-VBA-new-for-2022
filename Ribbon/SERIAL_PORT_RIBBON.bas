@@ -5,7 +5,6 @@ Dim Stop_Result As Boolean
 Dim Start_Result As Boolean
 Dim Signal_Result As Boolean
 
-
 Dim Characters_Sent As Long
 Dim Characters_Waiting As Long
 
