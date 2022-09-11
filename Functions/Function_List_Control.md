@@ -12,6 +12,7 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | `start_com_port(1)`                  | Starts port with existing settings                                                                            |
 | `start_com_port(1,"Baud=1200")`      | Starts port with settings as supplied                                                                         |
 | `start_com_port(1,SCANNER)`          | Starts port with settings defined in string constant or variable e.g. SCANNER                                 |
+| `get_port_settings(1)`               | Returns string [^2] with port settings or error text                                                          |
 | `stop_com_port(1)`                   | Stops port and hands its control back to Windows                                                              |
 
 * Debug results are shown in the VBA Immediate Window (Control-G)
