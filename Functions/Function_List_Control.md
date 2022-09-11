@@ -20,4 +20,4 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 * Other functions return `True` or `False` to indicate success or failure
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
-[^2]: e.g. 9600-8-N-1 , PORT-NOT-STARTED, PORT-INVALID  
+[^2]: e.g. 9600-8-N-1 , PORT-NOT-STARTED, INVALID-PORT
