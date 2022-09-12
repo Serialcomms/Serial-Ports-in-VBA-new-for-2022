@@ -68,7 +68,7 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 
 * Extensive debug functionality makes several modules quite verbose. 
 
-* A far more compact version without debug is available in the No-Debug folder. 
+* A far more compact version without debug is available in the [No-Debug](No-Debug) folder. 
 
 </p>
 </details>   
