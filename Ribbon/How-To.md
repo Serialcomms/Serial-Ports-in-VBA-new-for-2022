@@ -4,7 +4,7 @@
 
 Steps below assume that 
 
-* _COM Port 1 is available for use on the PC - see step 25 to use another port number_
+* _COM Port 1 is available for use on the PC - see step 25 to use another com port number_
 * _The Office document to be customised has previously had the SERIAL_PORT_VBA module installed and tested._
 
 1. Close all Office documents before continuing.
