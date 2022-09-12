@@ -24,8 +24,8 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | ------------------------------|:------:| :-----:|--------------------------------------|:-------:|:--------:|
 | `request_to_send(1,0)`        | RTS    |  Clear | Request To Send                      |    7    |    4     |
 | `request_to_send(1,1)`        | RTS    |  Send  | Request To Send                      |    7    |    4     |
-| `signal_com_port(1,1)`        | XOFF   |  Set   | Flow Control Off                     |  [^2]   |   [^2]   |
-| `signal_com_port(1,2)`        | XON    |  Set   | Flow Control On                      |  [^2]   |   [^2]   |
+| `signal_com_port(1,1)`        | XOFF   |  Set   | Flow Control Off                     |  [^3]   |   [^3]   |
+| `signal_com_port(1,2)`        | XON    |  Set   | Flow Control On                      |  [^3]   |   [^3]   |
 | `signal_com_port(1,3)`        | RTS    |  Send  | Request To Send                      |    7    |    4     |
 | `signal_com_port(1,4)`        | RTS    |  Clear | Request To Send                      |    7    |    4     |
 | `signal_com_port(1,5)`        | DTR    |  Send  | Data Terminal Ready                  |    4    |    20    |
@@ -36,4 +36,5 @@ First parameter (1) is a valid[^1] COM Port number on host PC
  * Functions return True if port valid, started and Windows [EscapeCommFunction](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction) returned True 
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module.
-[^2]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
+[^2]: Received Line Signal Detect
+[^3]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
