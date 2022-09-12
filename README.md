@@ -85,9 +85,7 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 <details><summary>Optional Ribbon Customisation</summary>
 <p>
 
-[Office 2010 XML](/Ribbon/RIBBON_2010.xml) and module [SERIAL_PORT_RIBBON](/Ribbon/SERIAL_PORT_RIBBON.bas) example files are available in the Ribbon folder. 
-
-[Ribbon customisation detail](/Ribbon/README.md)
+[Office 2010 XML](/Ribbon/RIBBON_2010.xml) and [SERIAL_PORT_RIBBON](/Ribbon/SERIAL_PORT_RIBBON.bas) example files are available in the [Ribbon](/Ribbon) folder. 
    
 </p>
 </details>   
