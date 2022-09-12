@@ -11,7 +11,7 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | ------------------------------|:------:| ---------------------------------------------|:-------:|:--------:|
 | `device_ready(1)`             | DSR    | Data Set Ready                               |    6    |    6     |
 | `device_calling(1)`           | RI     | Ring Indicate                                |    9    |    22    |
-| `carrier_detect(1)`           | CD     | Carrier Detect / Receive Line Signal Detect  |    1    |    8     |
+| `carrier_detect(1)`           | CD     | Carrier Detect (RLSD) [^2]                   |    1    |    8     |
 | `clear_to_send(1)`            | CTS    | Clear To Send                                |    8    |    5     |
  
 * Functions return True if port valid, started, input signal active and Windows [GetCommModemStatus](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getcommmodemstatus) returned True
