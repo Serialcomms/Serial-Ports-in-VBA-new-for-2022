@@ -1,0 +1,21 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+ <ribbon startFromScratch="false">
+  <tabs>
+   <tab       id="COM_PORT_TAB"       label="COM Port 1"        insertAfterMso="TabHome">
+    <group    id="COM_PORT_CONTROLS"  label="COM Port Control" >
+	  <button id="COM_PORT_START"     label="Start" size="large" onAction="COM_PORT_CONTROL_1"  imageMso="RecordingPlay"         supertip="Start COM Port"/>
+      <button id="COM_PORT_STOP"      label="Stop"  size="large" onAction="COM_PORT_CONTROL_2"  imageMso="MenuDeclineInvitation" supertip="Stop COM Port"/>
+    </group>
+    <group    id="COM_PORT_DATA"      label="COM Port Data">
+     <button  id="COM_PORT_CHECK"     label="Check" size="large" onAction="COM_PORT_DATA_1"     imageMso="NewTaskNumbered"       supertip="Check for Waiting Data"/>
+     <button  id="COM_PORT_READ"      label="Read"  size="large" onAction="COM_PORT_DATA_2"     imageMso="BarcodeInsert"         supertip="Read Data from port"/>
+     <button  id="COM_PORT_WRITE"     label="Write" size="large" onAction="COM_PORT_DATA_3"     imageMso="PageOptionsDialog"     supertip="Send Data To port"/>
+    </group>
+    <group    id="COM_PORT_SIGNAL"    label="Request to Send">
+     <button  id="COM_PORT_RTS_ON"    label="On"    size="large" onAction="COM_PORT_SIGNAL_1"   imageMso="ArrangeByToDoStart"    supertip="Set RTS Signal ON"/>
+     <button  id="COM_PORT_RTS_OFF"   label="Off"   size="large" onAction="COM_PORT_SIGNAL_2"   imageMso="HtmlClearBookmarks"    supertip="Set RTS Signal OFF"/>
+    </group>
+   </tab>
+  </tabs>
+ </ribbon>
+</customUI>
