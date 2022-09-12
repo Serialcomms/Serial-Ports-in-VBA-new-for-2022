@@ -11,8 +11,6 @@ Download and install RibbonX following the instructions provided with it.
 
 Download the file RIBBON_2010.xml from this folder in preparation for use.  
 
-Prepare a document by installing and testing module SERIAL_PORT_VBA first. 
-
 Follow the [HowTo](How-To.md) instructions to install the RIBBON_2010.xml sample customisation file.
 
 </p>
