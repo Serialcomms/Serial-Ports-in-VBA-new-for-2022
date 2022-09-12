@@ -9,9 +9,9 @@ The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/
 
 Download and install RibbonX following the instructions provided with it.  
 
-Download the file RIBBON_2010.xml from this folder in preparation for use.  
+Download the file `RIBBON_2010.xml` from this folder in preparation for use.  
 
-Follow the [instructions](How-To.md) to install the RIBBON_2010.xml sample customisation file.
+Follow the [instructions](How-To.md) to install the `RIBBON_2010.xml` sample customisation file.
 
 </p>
 </details>
