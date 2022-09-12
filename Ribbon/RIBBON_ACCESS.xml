@@ -3,7 +3,7 @@
   <tabs>
    <tab       id="COM_PORT_TAB"       label="COM Port 1"        insertAfterMso="TabHome">
     <group    id="COM_PORT_CONTROLS"  label="COM Port Control" >
-	  <button id="COM_PORT_START"     label="Start" size="large" onAction="COM_PORT_CONTROL_1"  imageMso="RecordingPlay"         supertip="Start COM Port"/>
+      <button id="COM_PORT_START"     label="Start" size="large" onAction="COM_PORT_CONTROL_1"  imageMso="RecordingPlay"         supertip="Start COM Port"/>
       <button id="COM_PORT_STOP"      label="Stop"  size="large" onAction="COM_PORT_CONTROL_2"  imageMso="MenuDeclineInvitation" supertip="Stop COM Port"/>
     </group>
     <group    id="COM_PORT_DATA"      label="COM Port Data">
