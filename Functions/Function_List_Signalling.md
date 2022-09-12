@@ -36,5 +36,5 @@ First parameter (1) is a valid[^1] COM Port number on host PC
  * Functions return True if port valid, started and Windows [EscapeCommFunction](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction) returned True 
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module.
-[^2]: Received Line Signal Detect
+[^2]: Receive Line Signal Detect
 [^3]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
