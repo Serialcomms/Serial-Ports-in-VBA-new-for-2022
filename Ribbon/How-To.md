@@ -17,7 +17,7 @@ Steps below assume that
 8. Confirm the **Custom XML UI is well formed** message box
 9. Click **Save** from the RibbonX editor menu
 10. **Close** the RibbonX editor
-11. Re-open the Office document as normal in Excel/Access/Word
+11. Re-open the Office document as normal in Excel or Word
 12. Confirm that a new tab **COM 1** is present in the document ribbon menu
 13. Confirm that the new tab contains icons similar to the image in this folder
 14. Select tab **COM Port 1** and click the **Start** icon
