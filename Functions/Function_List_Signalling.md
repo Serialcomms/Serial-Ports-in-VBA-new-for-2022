@@ -24,8 +24,8 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | ------------------------------|:------:| :-----:|--------------------------------------|:-------:|:--------:|
 | `request_to_send(1,0)`        | RTS    |  Clear | Request To Send                      |    7    |    4     |
 | `request_to_send(1,1)`        | RTS    |  Send  | Request To Send                      |    7    |    4     |
-| `signal_com_port(1,1)`        | XOFF   |  Set   | Flow Control Off                     |    -    |    -     |
-| `signal_com_port(1,2)`        | XON    |  Set   | Flow Control On                      |    -    |    -     |
+| `signal_com_port(1,1)`        | XOFF   |  Set   | Flow Control Off [^2]                |    -    |    -     |
+| `signal_com_port(1,2)`        | XON    |  Set   | Flow Control On [^2]                 |    -    |    -     |
 | `signal_com_port(1,3)`        | RTS    |  Send  | Request To Send                      |    7    |    4     |
 | `signal_com_port(1,4)`        | RTS    |  Clear | Request To Send                      |    7    |    4     |
 | `signal_com_port(1,5)`        | DTR    |  Send  | Data Terminal Ready                  |    4    |    20    |
