@@ -6,7 +6,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
 
 | VBA Function                         | Description                                                                                                   |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------|
-| `show_port_dcb(1)`                   | Display contents of the port's Device Control Block                                                           |
+| `show_port_dcb(1)`                   | Show decoded contents of the port's Device Control Block                                                      |
 | `show_port_errors(1)`                | Show port overflow/overrun/parity/framing/break conditions                                                    |          
 | `show_port_modem(1)`                 | Show port modem signals DSR/CTS/RING/CD                                                                       |  
 | `show_port_queues(1)`                | Show port input and output data queues                                                                        |  
