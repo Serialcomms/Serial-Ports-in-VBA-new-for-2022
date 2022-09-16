@@ -1582,13 +1582,16 @@ If Port_Valid Then Port_Debug = COM_PORT(Port_Number).Debug
 '-----------------------------------------------------------------------
 
 Dim Read_Byte_Count As Long
-Dim Get_Character As String * LONG_1               ' must be fixed length 1
+Dim Get_Character As String
+Dim Read_Buffer As String * LONG_1  ' must be fixed length 1
 
 If Port_Valid Then
 
     If Port_Started(Port_Number) Then
 
-        Synchronous_Read COM_PORT(Port_Number).Handle, Get_Character, LONG_1, Read_Byte_Count
+        Synchronous_Read COM_PORT(Port_Number).Handle, Read_Buffer, LONG_1, Read_Byte_Count
+                                                                                                                                                    
+        If Read_Byte_Count = LONG_1 Then Get_Character = Read_Buffer                                                                                                                                            
       
     Else
 
