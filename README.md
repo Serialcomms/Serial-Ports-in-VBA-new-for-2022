@@ -74,9 +74,10 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 </details>   
 
 <details><summary>Optional steps for Excel only</summary>
-<p>
+<p>  
 
-- Remove comment mark before `Option Private Module` to prevent function names appearing in cell formula drop-down lists. 
+- Functions can be used directly in Worksheet cells where appropriate.  
+- Remove comment mark before `Option Private Module` to prevent function names appearing in cell formula drop-down lists.  
 - Remove comment mark before `Application.Volatile` where indicated to refresh results when functions are used in cells and the worksheet is recalculated (e.g. with F9 key).
 
 </p>
