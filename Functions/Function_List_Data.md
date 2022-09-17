@@ -16,6 +16,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 | `receive_com_port(1)`           | Yes  | Receives all data from port [^4][^3]                                                                          |
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string QWERTY to port [^4]                                                                     |
 | `transmit_com_port(1,COMMANDS)` | Yes  | Sends supplied string constant or variable COMMANDS to port [^4]                                              |
+| `send_com_port($B$5)`           | Yes  | Sends contents of Worksheet Cell $B$5 [^5] to com port (Excel Only)                                           |
 
 * Functions shown as TS=No return within a few milliseconds. 
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
@@ -27,4 +28,6 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 [^3]:  Function includes read wait and exit timers and returns when exit timer expires.  
 
 [^4]:  Function can block for extended periods with VBA remaining responsive before returning.  
+
+[^5]:  Excel will re-send if Cell $B$5 value changes
        
