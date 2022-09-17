@@ -13,7 +13,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC.
 | `read_com_port(1)`              | No   | Reads an unspecified number [^2] of waiting characters.                                                       |
 | `read_com_port(1,20)`           | No   | Reads up to specified number [^2] (20) of waiting characters.                                                 |
 | `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`. [^4]                           |
-| `send_com_port(1,$B$5)`         | Yes  | Sends contents of Worksheet Cell $B$5 [^5] to com port (Excel Only)                                           |
+| `send_com_port(1,$B$5)`         | Yes  | Sends contents of Cell $B$5 [^5] to com port (Excel Worksheet Only)                                           |
 | `receive_com_port(1)`           | Yes  | Receives all data from port [^4][^3]                                                                          |
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string QWERTY to port [^4]                                                                     |
 | `transmit_com_port(1,COMMANDS)` | Yes  | Sends supplied string constant or variable COMMANDS to port [^4]                                              |
