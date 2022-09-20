@@ -76,9 +76,9 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 
 * [No-Debug version](No-Debug) 
 
-* [Simplified Version](Serial-Ports-in-VBA-Simple-2022)
+* [Simplified Version](https://github.com/Serialcomms/Serial-Ports-in-VBA-Simple-2022)
 
-* [Minimal Version](../Serial-Ports-in-VBA-Extra-Simple-2022)
+* [Minimal Version](https://github.com/Serialcomms/Serial-Ports-in-VBA-Extra-Simple-2022)
 
 </p>
 </details>  
