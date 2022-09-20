@@ -68,10 +68,20 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 
 * Extensive debug functionality makes several modules quite verbose. 
 
-* A far more compact version without debug is available in the [No-Debug](No-Debug) folder. 
+</p>
+</details>  
+
+<details><summary>Other Versions</summary>
+<p> 
+
+* [No-Debug version](No-Debug) 
+
+* [Simplified Version](../Serial-Ports-in-VBA-Simple-2022)
+
+* [Minimal Version](../Serial-Ports-in-VBA-Extra-Simple-2022)
 
 </p>
-</details>   
+</details>  
 
 <details><summary>Optional steps for Excel only</summary>
 <p>  
