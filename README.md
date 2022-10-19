@@ -83,8 +83,16 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 * [VBA6 / 32-Bit](https://github.com/Serialcomms/Serial-Ports-in-VBA6-legacy-for-2022)  (legacy Windows/Office)
 
 </p>
-</details>  
+</details> 
+   
+<details><summary>Alternatives (Excel Only)</summary>
+<p> 
 
+* [Microsoft Data Streamer for Excel](https://learn.microsoft.com/en-us/microsoft-365/education/data-streamer/)   
+ 
+</p>
+</details>   
+     
 <details><summary>Optional steps for Excel only</summary>
 <p>  
 
