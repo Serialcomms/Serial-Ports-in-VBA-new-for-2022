@@ -1,5 +1,9 @@
 ## Ribbon Customisation
 
+<img align="top" src="/Ribbon/COM_PORT_TAB.png" alt="COM_PORT TAB" title="COM Port Ribbon Tab" width="25%" height="25%">
+
+
+
 #### Adding custom Ribbon tabs and commands
 
 <details><summary>Ribbon Editor (Word and Excel)</summary>
