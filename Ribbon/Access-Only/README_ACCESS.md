@@ -1,5 +1,6 @@
 # Ribbon Customisation in Access
 
+<img src="/Ribbon/Access-Only/ACCESS_RIBBON.png" alt="Access Ribbon" title="Access Ribbon Tab" width="50%" height="50%">
 
 Steps to customise the Ribbon in Access only are summarised below
 
