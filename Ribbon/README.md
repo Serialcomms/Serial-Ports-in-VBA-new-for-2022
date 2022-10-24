@@ -2,7 +2,9 @@
 
 <p float="left">
   <img align="top" src="/Ribbon/COM_PORT_TAB.png" alt="COM_PORT TAB" title="COM Port Ribbon Tab" width="30%" height="30%">
- <img src="/Ribbon/Access-Only/ACCESS_RIBBON.png" alt="Access Ribbon" title="Access Ribbon Tab" width="30%" height="30%">
+  <img align="top" src="/Ribbon/WORD_RIBBON.png" alt="COM_PORT TAB" title="COM Port Ribbon Tab" width="30%" height="30%">
+  <img src="/Ribbon/Access-Only/ACCESS_RIBBON.png" alt="Access Ribbon" title="Access Ribbon Tab" width="30%" height="30%">
+  
 </p>
 
 
