@@ -30,11 +30,14 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | `signal_com_port(1,4)`        | RTS    |  Clear | Request To Send                      |    7    |    4     |
 | `signal_com_port(1,5)`        | DTR    |  Send  | Data Terminal Ready                  |    4    |    20    |
 | `signal_com_port(1,6)`        | DTR    |  Clear | Data Terminal Ready                  |    4    |    20    |
+| `signal_com_port(1,7)`        | RESET  |  Set   | Reset device, if possible [^4]       |  [^3]   |   [^3]   |
 | `signal_com_port(1,8)`        | BREAK  |  Send  | Line Break Condition                 |    3    |    3     |
 | `signal_com_port(1,9)`        | BREAK  |  Clear | Line Break Condition                 |    3    |    3     |
 
  * Functions return True if port valid, started and Windows [EscapeCommFunction](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction) returned True 
+ * Output-signal functions are rejected (return False) while another operation is running on the same port; input-signal functions can run at any time and never disturb an in-progress operation.
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module.
+[^4]: RESETDEV, defined in the Windows SDK (winbase.h); omitted from the online EscapeCommFunction table.
 [^2]: Receive Line Signal Detect
 [^3]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
