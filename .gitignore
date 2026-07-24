@@ -1,0 +1,6 @@
+# Excel owner/lock files (created while a workbook is open)
+~$*
+
+# Claude Code harness
+.claude/worktrees/
+.claude/settings.local.json
