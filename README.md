@@ -131,6 +131,8 @@ compiled on Office 16.0, with headless smoke tests passed (invalid port numbers 
 <details><summary>Other Versions</summary>
 <p> 
 
+* [Original](https://github.com/Serialcomms/Serial-Ports-in-VBA-new-for-2022/tree/Original) (original 2022 version)
+
 * [No-Debug](No-Debug)      (more compact)
 
 * [Simplified](https://github.com/Serialcomms/Serial-Ports-in-VBA-Simple-2022)   (single com port)
