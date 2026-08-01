@@ -26,7 +26,7 @@ Private Const COM_PORT_MAX As Integer = 2               ' = COM2
 Private Const HANDLE_INVALID As LongPtr = -1
 Private Const NULL_POINTER As LongPtr = 0               ' explicit NULL for native pointer/handle arguments
 Private Const MAXDWORD As Long = &HFFFFFFFF
-Private Const VBA_TIMEOUT As Long = 5200                ' VBA "Not Responding" time in MilliSeconds (approximate)
+Private Const VBA_TIMEOUT As Long = 5200                ' VBA "Not Responding" time in Milliseconds (approximate)
 Private Const LONG_NEG_1 As Long = -1
 
 Private Const LONG_0  As Long = 0                       ' some predefined constants for minor performance gain.
@@ -90,8 +90,8 @@ Private Const HEX_8000 As Long = &H8000
 Private Const HEX_C000 As Long = &HC000
 
 Private Const TEXT_ON As String = "On"              ' some text string constants for minor gains.
-Private Const TEXT_MS As String = " mS"
-Private Const TEXT_US As String = " �S"
+Private Const TEXT_MS As String = " ms"
+Private Const TEXT_US As String = " �s"
 Private Const TEXT_TO As String = " To "
 Private Const TEXT_OFF As String = "Off"
 Private Const TEXT_TRUE As String = "True"
